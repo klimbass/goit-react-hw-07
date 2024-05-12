@@ -1,0 +1,42 @@
+.appBox {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  align-items: center;
+}
+.titleBox {
+  background-color: #588b8b;
+  border-radius: 4px;
+  padding: 0;
+  margin: 24px;
+  transition: background-color 250ms linear;
+}
+.appTitle {
+  margin: 0;
+  display: inline-block;
+  text-align: center;
+  font-family: sans-serif;
+  font-weight: 800;
+  color: #fafafa;
+  padding: 2px 8px;
+  max-width: 360px;
+  transition: background-color 250ms linear, color 250ms linear;
+}
+.appTitle:hover {
+  background: linear-gradient(
+    45deg,
+    rgba(170, 77, 48, 0.278),
+    rgba(48, 111, 170, 0.278)
+  );
+  -webkit-background-clip: text;
+  background-clip: text;
+  color: transparent;
+}
+
+.titleBox:hover {
+  background-color: #88888863;
+}
+
+.read-the-docs {
+  color: #888;
+}
