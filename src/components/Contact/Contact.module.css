@@ -1,5 +1,5 @@
 .card {
-  border: 2px solid #588b8b;
+  border: none;
   border-radius: 8px;
   padding: 12px;
   display: flex;
@@ -7,7 +7,7 @@
   justify-content: space-between;
   align-items: center;
   width: 350px;
-  background-color: #588b8b4e;
+  background-color: #8c8e8e4e;
   font-family: sans-serif;
   color: #121b1b;
   gap: 16px;
@@ -17,7 +17,7 @@
 .card:focus {
   box-shadow: 8px 4px rgba(170, 77, 48, 0.278),
     -8px -4px rgba(48, 111, 170, 0.278);
-  background-color: #3453534e;
+  background-color: #c1c3c34e;
 }
 
 .cardLis {
@@ -27,7 +27,7 @@
 }
 
 .icon {
-  color: #588b8b;
+  color: #515252;
 }
 
 .cardText {
@@ -41,7 +41,7 @@
 }
 
 .cardBtn {
-  background-color: #588b8b;
+  background-color: #7678786e;
   color: #fafafa;
   border-radius: 4px;
   height: 36px;

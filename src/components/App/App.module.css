@@ -3,9 +3,11 @@
   flex-direction: column;
   gap: 8px;
   align-items: center;
+  background-color: #e0e9e9da;
+  padding: 24px 160px;
 }
 .titleBox {
-  background-color: #588b8b;
+  background-color: #858c8c;
   border-radius: 4px;
   padding: 0;
   margin: 24px;
@@ -25,8 +27,8 @@
 .appTitle:hover {
   background: linear-gradient(
     45deg,
-    rgba(170, 77, 48, 0.278),
-    rgba(48, 111, 170, 0.278)
+    rgba(170, 76, 48, 0.845),
+    rgba(48, 111, 170, 0.712)
   );
   -webkit-background-clip: text;
   background-clip: text;
@@ -34,7 +36,7 @@
 }
 
 .titleBox:hover {
-  background-color: #88888863;
+  background-color: transparent;
 }
 
 .read-the-docs {

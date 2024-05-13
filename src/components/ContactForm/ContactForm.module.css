@@ -4,7 +4,12 @@
   gap: 8px;
   border-radius: 8px;
   padding: 16px;
-  background: linear-gradient(40deg, teal, rgb(151, 208, 208) 50%, teal);
+  background: linear-gradient(
+    40deg,
+    rgb(45, 45, 45),
+    rgb(200, 211, 211) 50%,
+    rgb(45, 45, 45)
+  );
   font-family: sans-serif;
   font-weight: 600;
   color: #2a4444;
@@ -31,16 +36,28 @@
 }
 
 .addContactBtn {
-  background-color: #5a606067;
-  color: #fafafa;
+  background-color: #cfd4d467;
+  color: #2c2c2c;
   border-radius: 4px;
   /* height: 36px; */
   /* border: none; */
-  border: 2px solid #2a4444;
+  border: none;
   font-size: 24px;
   font-weight: 600;
   margin-top: 8px;
+  transition: background-color 250ms linear, color 250ms linear;
 }
+.addContactBtn:disabled {
+  background-color: #cfd4d467;
+  color: #727272;
+}
+
+.addContactBtn:enabled:hover,
+.addContactBtn:enabled:focus {
+  background-color: #2a4444;
+  color: #fafafa;
+}
+
 .label {
   position: relative;
 }
@@ -54,11 +71,11 @@
   position: absolute;
   top: 16px;
   right: 16px;
-  color: #7ac1c1;
+  color: rgba(243, 210, 200, 0.753);
 }
 .errorNumber {
   position: absolute;
   top: 86px;
   right: 16px;
-  color: #7ac1c1;
+  color: rgba(243, 210, 200, 0.753);
 }
